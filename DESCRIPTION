@@ -10,13 +10,13 @@ Description: Utlizar funciones simples a menudos se complecan demasida
     dada esta circunstancia se emplean 3 funciones: 'Suma', 'Sumatoria',
     'Media' para realizar calculos rapidos sin la necesidad de escribir
     varias lineas de codigo.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: GPL (>= 2)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.1
 Depends: 
     R (>= 2.10)
 LazyData: true
-URL: https://github.com/Nandomh123/NPaqueteR
+URL: https://github.com/Nandomh123/NPaqueteR,
+    https://nandomh123.github.io/NPaqueteR/
 BugReports: https://github.com/Nandomh123/NPaqueteR/issues
