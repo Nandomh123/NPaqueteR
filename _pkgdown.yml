@@ -1,4 +1,48 @@
 url: https://nandomh123.github.io/NPaqueteR/
 template:
   bootstrap: 5
+  bootswatch: minty
+  bslib:
+    border-color: "#256D3D"
+    base_font: {google: "Roboto"}
+    heading_font: {google: "Roboto Slab"}
+    code_font: {google: "JetBrains Mono"}
 
+navbar:
+  title: ~
+  left:
+    - text: References
+      href: reference/index.html
+    - text: Tutorials
+    - text: Articles
+    - text: News
+
+  structure:
+    right: [github, twitter, facebook]
+  components:
+    twitter:
+      icon: fa-twitter
+      href: https://twitter.com/JonathanPallasc
+      aria-label: Twitter
+    facebook:
+      icon: fa-facebook
+      href: https://www.facebook.com/jhonathan.pallasco
+      aria-label: Facebook
+
+footer:
+  structure:
+    left: developed_by
+    right: [built_with , legal]
+  components:
+    legal: View the **web site**.
+
+home:
+  sidebar:
+    structure: [links, license, community, citation, authors, dev]
+
+authors:
+  Jonathan Pallasco:
+    href: https://www.linkedin.com/in/jpallasco/
+  RStudio:
+    href: https://www.rstudio.com
+    html: <img src='https://www.tidyverse.org/rstudio-logo.svg' alt='RStudio' width='72' />
