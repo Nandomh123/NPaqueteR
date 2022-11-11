@@ -14,7 +14,9 @@ navbar:
     - text: References
       href: reference/index.html
     - text: Tutorials
+      href: articles/Tutorial.html
     - text: Articles
+      href: articles/Articles.html
     - text: News
 
   structure:
@@ -46,3 +48,22 @@ authors:
   RStudio:
     href: https://www.rstudio.com
     html: <img src='https://www.tidyverse.org/rstudio-logo.svg' alt='RStudio' width='72' />
+
+
+reference:
+  - title: "Univariate function"
+    desc: >
+      This function is used by to calcule the add for two integer or decimal nambers.
+    contents:
+      - Suma
+  - title: "Multivariate function"
+    desc: >
+      This functions is used by to calcule the sum and mean for the vector.
+    contents:
+      - Sumatoria
+      - Media
+  - title: "Dataset"
+    desc: >
+      Databases abouth the family is used in the package.
+    contents:
+      - Familia

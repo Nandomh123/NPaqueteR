@@ -21,3 +21,7 @@ LazyData: true
 URL: https://github.com/Nandomh123/NPaqueteR,
     https://nandomh123.github.io/NPaqueteR/
 BugReports: https://github.com/Nandomh123/NPaqueteR/issues
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

@@ -1,0 +1,39 @@
+---
+title: "Tutorial para crear un nuevo paquete R"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Tutorial para crear un nuevo paquete R}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r include=FALSE}
+colorize <- function(x, color) {
+  if (knitr::is_latex_output()) {
+    sprintf("\\textcolor{%s}{%s}", color, x)
+  } else if (knitr::is_html_output()) {
+    sprintf("<span style='color: %s;'>%s</span>", color,
+      x)
+  } else x
+}
+```
+
+# `r colorize("Video tutorial","blue")`
+
+<br>
+<p style="text-align:justify;"> This vignette will present the main features that allow you to add vignettes to a website from an R package.</p>
+<br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xN8SgffumrM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+```{r setup}
+library(NPaqueteR)
+```
