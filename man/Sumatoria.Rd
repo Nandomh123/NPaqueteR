@@ -16,5 +16,5 @@ used to obtain the sum of a vector or numeric data set.
 \examples{
 library(NPaqueteR)
 data(Familia)
-Sumatoria(Familia$Personas)
+Sumatoria(Familia$Persona)
 }

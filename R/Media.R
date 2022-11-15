@@ -17,7 +17,7 @@
 ##' @examples
 ##' library(NPaqueteR)
 ##' data(Familia)
-##' Media(Familia$Personas)
+##' Media(Familia$Persona)
 
 Media <- function(vector){
   n <- length(vector)

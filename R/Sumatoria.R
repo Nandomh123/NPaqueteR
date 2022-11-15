@@ -15,7 +15,7 @@
 ##' @examples
 ##' library(NPaqueteR)
 ##' data(Familia)
-##' Sumatoria(Familia$Personas)
+##' Sumatoria(Familia$Persona)
 
 Sumatoria <- function(vector){
   n <- length(vector)
