@@ -18,6 +18,7 @@ navbar:
     - text: Articles
       href: articles/Articles.html
     - text: News
+      href: news/index.html
 
   structure:
     right: [github, twitter, facebook]
